@@ -5,7 +5,7 @@
    <img
       alt="Download Bind"
       src="https://raw.githubusercontent.com/SkyrimScripting/Download/main/DownloadButton_256.png"
-      height="16" />
+      width="100" />
 </a>
 
 
