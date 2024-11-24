@@ -1,5 +1,7 @@
 .idea
 .vs
 .vscode/settings.json
+.xmake
 build
 cmake-build*
+compile_commands
