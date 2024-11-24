@@ -1,6 +1,6 @@
 # Bind
 
-[![Download Bind](https://github.com/SkyrimScripting/SkyrimScripting/raw/main/Resources/DownloadButton.png)](https://github.com/SkyrimScripting/Bind/releases/download/v1/BIND.Papyrus.Scripts.7z)
+[![Download Bind](https://raw.githubusercontent.com/SkyrimScripting/Download/main/DownloadButton_64.png)](chttps://github.com/SkyrimScripting/Bind/releases/download/v1.1.2-turkey/BIND.v1.1.2-turkey.7z)
 
 > Bind Papyrus Scripts On Game Load
 
@@ -22,7 +22,7 @@ This is a **Developer Tool:** _for testing Papyrus scripts!_
    MyScriptTwo
    ```
 1. Run the game!
-   > Each of your scripts will automatically be bound to a game object  
+   > Each of your scripts will automatically be bound to a game object
    > and the `event OnInit()` of each script will run
 
 ## Specifying _what_ to bind the script to.
@@ -42,7 +42,7 @@ SomeScript AnEditorID
 
 #### Logs
 
-> ℹ ️ If you run into any problems, check the `SkyrimScripting.Bind.log` in your  
+> ℹ ️ If you run into any problems, check the `SkyrimScripting.Bind.log` in your
 > `My Games\Skyrim Special Edition\SKSE\` folder.
 
 # `v1`
