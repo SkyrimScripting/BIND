@@ -1,6 +1,13 @@
 # Bind
 
-[![Download Bind](https://raw.githubusercontent.com/SkyrimScripting/Download/main/DownloadButton_64.png)](chttps://github.com/SkyrimScripting/Bind/releases/download/v1.1.2-turkey/BIND.v1.1.2-turkey.7z)
+<a title="Download Bind"
+   href="https://github.com/SkyrimScripting/Bind/releases/download/v1.1.2-turkey/BIND.v1.1.2-turkey.7z">
+   <img
+      alt="Download Bind"
+      src="https://raw.githubusercontent.com/SkyrimScripting/Download/main/DownloadButton_256.png"
+      height="16" />
+</a>
+
 
 > Bind Papyrus Scripts On Game Load
 
