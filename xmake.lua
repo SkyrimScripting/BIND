@@ -1,8 +1,8 @@
-set_languages("c++20")
+add_rules("mode.debug", "mode.releasedbg", "mode.release")
 
-add_rules("mode.debug", "mode.releasedbg")
+set_languages("c++23")
 
-add_repositories("MrowrMisc https://github.com/MrowrMisc/PackageTesting.git")
+add_repositories("SkyrimScripting https://github.com/SkyrimScripting/Packages.git")
 
 add_requires("skyrim-commonlib")
 
@@ -10,8 +10,10 @@ target("BIND")
     add_files("*.cpp")
     add_packages("skyrim-commonlib")
     add_rules("@skyrim-commonlib/plugin", {
-        mod_folders = {
-            "C:/Users/mrowr/AppData/Local/ModOrganizer/GOG Skyrim AE/Mods",
-            os.getenv("SKYRIM_SCRIPTING_MOD_FOLDERS")
-        }
+        name = "[Purr] BIND",
+        version = "420.1.69",
+        author = "Mrowr Purr",
+        email = "mrowr.purr@gmail.com",
+        mods_folder = os.getenv("SKYSCRIPT_MODS_FOLDER"),
+        mod_files = {"Scripts"}
     })
